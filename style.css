@@ -76,6 +76,12 @@ ul li.checked::before {
   color: 948D91;
 }
 
+.back:hover, .complete:hover {
+  background-color: #CCC8E3;
+  color: 948D91;
+}
+
+
 /* Style the header */
 .header {
   background-color: #F4E7EE;
