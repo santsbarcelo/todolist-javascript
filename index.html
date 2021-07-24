@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>ToDoリスト</h2>
+        <input type="text" id="myInput" placeholder="入力してください...">
+        <span onclick="newElement()" class="addBtn">追加</span>
+      </div>
+      
+      <div class="incomplete-list">
+        <h2>未完了リスト</h2>
+        <ul id="myIncompleteUL">
+          <li>白湯を飲む</li>
+          <li>スイーツを買う</li>
+          <li>JSを勉強する</li>
+        </ul>
+      </div>
+
+      <div class="complete-list">
+        <h2>完了リスト</h2>
+        <ul id="myCompleteUL">
+          <li>ラジオ体操をする</li>
+          <li>iPhoneを充電する</li>
+        </ul>
+      </div>
+  <script src="index.js"></script>
+</body>
+</html>
